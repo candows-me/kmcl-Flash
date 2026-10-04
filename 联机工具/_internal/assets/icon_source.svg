@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  MC 穿透工具 - 应用图标 SVG 源文件
+  设计:深灰圆角方块 + Minecraft 草地像素块 + 交叉蓝色闪电(穿透) + 小盾牌徽章
+  可使用 Inkscape / Illustrator / Figma 等软件编辑
+  导出为 PNG 后可用 Pillow 生成多尺寸图标(.ico)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="bgClip">
+      <rect x="0" y="0" width="1024" height="1024" rx="180" ry="180"/>
+    </clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="1024" rx="180" ry="180" fill="#2B2B2B"/>
+
+  <g transform="translate(512,512) translate(0,-40)" clip-path="url(#bgClip)">
+    <g transform="translate(0,-140) skewX(-30) scale(1,.866)">
+      <rect x="-180" y="-180" width="360" height="360" fill="#6AB04A"/>
+      <g fill="#5BA33F">
+        <rect x="-180" y="-180" width="60" height="60"/>
+        <rect x="-60"  y="-180" width="60" height="60"/>
+        <rect x="60"   y="-180" width="60" height="60"/>
+        <rect x="-120" y="-120" width="60" height="60"/>
+        <rect x="0"    y="-120" width="60" height="60"/>
+        <rect x="120"  y="-120" width="60" height="60"/>
+        <rect x="-180" y="-60"  width="60" height="60"/>
+        <rect x="-60"  y="-60"  width="60" height="60"/>
+        <rect x="60"   y="-60"  width="60" height="60"/>
+        <rect x="180"  y="-60"  width="60" height="60"/>
+        <rect x="-120" y="0"    width="60" height="60"/>
+        <rect x="0"    y="0"    width="60" height="60"/>
+        <rect x="120"  y="0"    width="60" height="60"/>
+        <rect x="-180" y="60"   width="60" height="60"/>
+        <rect x="-60"  y="60"   width="60" height="60"/>
+        <rect x="60"   y="60"   width="60" height="60"/>
+        <rect x="180"  y="60"   width="60" height="60"/>
+        <rect x="-120" y="120"  width="60" height="60"/>
+        <rect x="0"    y="120"  width="60" height="60"/>
+        <rect x="120"  y="120"  width="60" height="60"/>
+      </g>
+      <g fill="#78BE55">
+        <rect x="-120" y="-180" width="60" height="60"/>
+        <rect x="0"    y="-180" width="60" height="60"/>
+        <rect x="120"  y="-180" width="60" height="60"/>
+        <rect x="-180" y="-120" width="60" height="60"/>
+        <rect x="-60"  y="-120" width="60" height="60"/>
+        <rect x="60"   y="-120" width="60" height="60"/>
+        <rect x="180"  y="-120" width="60" height="60"/>
+        <rect x="-120" y="-60"  width="60" height="60"/>
+        <rect x="0"    y="-60"  width="60" height="60"/>
+        <rect x="120"  y="-60"  width="60" height="60"/>
+        <rect x="-180" y="0"    width="60" height="60"/>
+        <rect x="-60"  y="0"    width="60" height="60"/>
+        <rect x="60"   y="0"    width="60" height="60"/>
+        <rect x="180"  y="0"    width="60" height="60"/>
+        <rect x="-120" y="60"   width="60" height="60"/>
+        <rect x="0"    y="60"   width="60" height="60"/>
+        <rect x="120"  y="60"   width="60" height="60"/>
+        <rect x="-180" y="120"  width="60" height="60"/>
+        <rect x="-60"  y="120"  width="60" height="60"/>
+        <rect x="60"   y="120"  width="60" height="60"/>
+        <rect x="180"  y="120"  width="60" height="60"/>
+      </g>
+    </g>
+
+    <g transform="translate(-180,40) skewY(30) scale(1,.866)">
+      <rect x="0" y="0" width="360" height="360" fill="#A97C50"/>
+      <g fill="#8B6339">
+        <rect x="0"   y="0"   width="60" height="60"/>
+        <rect x="120" y="0"   width="60" height="60"/>
+        <rect x="240" y="0"   width="60" height="60"/>
+        <rect x="60"  y="60"  width="60" height="60"/>
+        <rect x="180" y="60"  width="60" height="60"/>
+        <rect x="300" y="60"  width="60" height="60"/>
+        <rect x="0"   y="120" width="60" height="60"/>
+        <rect x="120" y="120" width="60" height="60"/>
+        <rect x="240" y="120" width="60" height="60"/>
+        <rect x="60"  y="180" width="60" height="60"/>
+        <rect x="180" y="180" width="60" height="60"/>
+        <rect x="300" y="180" width="60" height="60"/>
+        <rect x="0"   y="240" width="60" height="60"/>
+        <rect x="120" y="240" width="60" height="60"/>
+        <rect x="240" y="240" width="60" height="60"/>
+        <rect x="60"  y="300" width="60" height="60"/>
+        <rect x="180" y="300" width="60" height="60"/>
+        <rect x="300" y="300" width="60" height="60"/>
+      </g>
+      <g fill="#B8895C">
+        <rect x="60"  y="0"   width="60" height="60"/>
+        <rect x="180" y="0"   width="60" height="60"/>
+        <rect x="300" y="0"   width="60" height="60"/>
+        <rect x="0"   y="60"  width="60" height="60"/>
+        <rect x="120" y="60"  width="60" height="60"/>
+        <rect x="240" y="60"  width="60" height="60"/>
+        <rect x="60"  y="120" width="60" height="60"/>
+        <rect x="180" y="120" width="60" height="60"/>
+        <rect x="300" y="120" width="60" height="60"/>
+        <rect x="0"   y="180" width="60" height="60"/>
+        <rect x="120" y="180" width="60" height="60"/>
+        <rect x="240" y="180" width="60" height="60"/>
+        <rect x="60"  y="240" width="60" height="60"/>
+        <rect x="180" y="240" width="60" height="60"/>
+        <rect x="300" y="240" width="60" height="60"/>
+        <rect x="0"   y="300" width="60" height="60"/>
+        <rect x="120" y="300" width="60" height="60"/>
+        <rect x="240" y="300" width="60" height="60"/>
+      </g>
+    </g>
+
+    <g transform="translate(180,40) skewY(-30) scale(1,.866)">
+      <rect x="-360" y="0" width="360" height="360" fill="#9A6F46"/>
+      <g fill="#835E3B">
+        <rect x="-360" y="0"   width="60" height="60"/>
+        <rect x="-240" y="0"   width="60" height="60"/>
+        <rect x="-120" y="0"   width="60" height="60"/>
+        <rect x="-300" y="60"  width="60" height="60"/>
+        <rect x="-180" y="60"  width="60" height="60"/>
+        <rect x="-60"  y="60"  width="60" height="60"/>
+        <rect x="-360" y="120" width="60" height="60"/>
+        <rect x="-240" y="120" width="60" height="60"/>
+        <rect x="-120" y="120" width="60" height="60"/>
+        <rect x="-300" y="180" width="60" height="60"/>
+        <rect x="-180" y="180" width="60" height="60"/>
+        <rect x="-60"  y="180" width="60" height="60"/>
+        <rect x="-360" y="240" width="60" height="60"/>
+        <rect x="-240" y="240" width="60" height="60"/>
+        <rect x="-120" y="240" width="60" height="60"/>
+        <rect x="-300" y="300" width="60" height="60"/>
+        <rect x="-180" y="300" width="60" height="60"/>
+        <rect x="-60"  y="300" width="60" height="60"/>
+      </g>
+      <g fill="#A97C50">
+        <rect x="-300" y="0"   width="60" height="60"/>
+        <rect x="-180" y="0"   width="60" height="60"/>
+        <rect x="-60"  y="0"   width="60" height="60"/>
+        <rect x="-360" y="60"  width="60" height="60"/>
+        <rect x="-240" y="60"  width="60" height="60"/>
+        <rect x="-120" y="60"  width="60" height="60"/>
+        <rect x="-300" y="120" width="60" height="60"/>
+        <rect x="-180" y="120" width="60" height="60"/>
+        <rect x="-60"  y="120" width="60" height="60"/>
+        <rect x="-360" y="180" width="60" height="60"/>
+        <rect x="-240" y="180" width="60" height="60"/>
+        <rect x="-120" y="180" width="60" height="60"/>
+        <rect x="-300" y="240" width="60" height="60"/>
+        <rect x="-180" y="240" width="60" height="60"/>
+        <rect x="-60"  y="240" width="60" height="60"/>
+        <rect x="-360" y="300" width="60" height="60"/>
+        <rect x="-240" y="300" width="60" height="60"/>
+        <rect x="-120" y="300" width="60" height="60"/>
+      </g>
+    </g>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M140,240 L390,490 L300,490 L520,740 L380,560 L470,560 Z"
+          fill="none" stroke="#4CC2FF" stroke-width="22"
+          stroke-linejoin="round" stroke-linecap="round" opacity="0.95"/>
+    <path d="M160,260 L390,490 L310,490 L500,720 L380,560 L460,560 Z"
+          fill="#4CC2FF" opacity="0.85"/>
+    <path d="M884,240 L634,490 L724,490 L504,740 L644,560 L554,560 Z"
+          fill="none" stroke="#4CC2FF" stroke-width="22"
+          stroke-linejoin="round" stroke-linecap="round" opacity="0.95"/>
+    <path d="M864,260 L634,490 L714,490 L524,720 L644,560 L564,560 Z"
+          fill="#4CC2FF" opacity="0.85"/>
+  </g>
+
+  <g transform="translate(800,820)">
+    <path d="M0,-120 L100,-90 L100,40 C100,110 60,150 0,170 C-60,150 -100,110 -100,40 L-100,-90 Z"
+          fill="none" stroke="#4CC2FF" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M0,-120 L100,-90 L100,40 C100,110 60,150 0,170 C-60,150 -100,110 -100,40 L-100,-90 Z"
+          fill="#4CC2FF" fill-opacity="0.35"/>
+    <path d="M-60,-70 L-10,20 L-50,40 L-60,-10 Z"
+          fill="#FFFFFF" fill-opacity="0.35"/>
+  </g>
+
+  <rect x="14" y="14" width="996" height="996" rx="172" ry="172"
+        fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="4"/>
+</svg>

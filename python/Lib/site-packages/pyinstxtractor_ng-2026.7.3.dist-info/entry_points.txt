@@ -1,0 +1,3 @@
+[console_scripts]
+pyinstxtractor-ng=pyinstxtractor_ng:main
+

@@ -1,0 +1,68 @@
+{
+  "player_name": "KMCL Player",
+  "game_version": "neoforge-21.1.99",
+  "java_path": "",
+  "mc_root": "",
+  "current_page": "toolbox",
+  "background_image": "",
+  "blur_radius": 24,
+  "wallpaper": "01_nature",
+  "font_style": "default",
+  "grass_engine": {
+    "enabled": false,
+    "auto_optimize": false,
+    "preset": "balanced",
+    "taa": false,
+    "blur": false
+  },
+  "version_isolation": true,
+  "launcher_visibility": "visible",
+  "launch_count": 5,
+  "play_seconds": 222,
+  "compat_opengl": false,
+  "compat_vulkan": false,
+  "custom_jvm_args": "",
+  "custom_game_args": "",
+  "default_mem_mb": 4049,
+  "ui_lang": "zh_CN",
+  "download_threads": 8,
+  "win_w": 1280,
+  "win_h": 800,
+  "game_lang": "zh_cn",
+  "button_states": {
+    "version_isolation": {
+      "on": false,
+      "t": 1790990179.0105708
+    },
+    "launch_game": {
+      "on": true,
+      "t": 1791028285.285826
+    },
+    "del_all": {
+      "on": true,
+      "t": 1791080320.3504415
+    },
+    "auto_memory": {
+      "on": true,
+      "t": 1791098534.290556
+    },
+    "perf_optimize": {
+      "on": true,
+      "t": 1791017123.1040788
+    },
+    "save_settings": {
+      "on": true,
+      "t": 1791032178.955598
+    }
+  },
+  "auto_memory": true,
+  "perf_optimized": true,
+  "perf_jvm_args": [
+    "-Xmx4049m",
+    "-Xms1024m",
+    "-XX:+UseG1GC",
+    "-XX:MaxGCPauseMillis=50",
+    "-XX:+ParallelRefProcEnabled",
+    "-Dfile.encoding=UTF-8"
+  ]
+}

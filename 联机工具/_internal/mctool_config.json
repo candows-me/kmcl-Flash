@@ -1,0 +1,8 @@
+{
+  "server_addr": "120.55.51.191",
+  "server_port": 7000,
+  "server_token": "",
+  "local_port": 25565,
+  "remote_port": 12345,
+  "player_addr": ""
+}

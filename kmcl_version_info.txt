@@ -1,0 +1,44 @@
+# -*- mode: python ; coding: utf-8 -*-
+# Kmcl Minecraft！Launcher 的 Windows 版本资源（exe 右键属性 → 详细信息）
+# 由 Kmcl Launcher.spec 的 EXE(version=...) 引用；修改文案请直接编辑本文件后重新打包。
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(3, 0, 0, 0),
+    prodvers=(3, 0, 0, 0),
+    mask=0x3F,
+    flags=0x0,
+    OS=0x40004,        # VOS_NT_WINDOWS32
+    fileType=0x1,      # VFT_APP
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable('080404b0', [
+          StringStruct('CompanyName', '吴宸工作室'),
+          StringStruct('FileDescription',
+              'Kmcl Minecraft!Launcher启动器 是一款为用户极简操作开发的小巧启动器,'
+              '于其他启动器的领先优点有:更好的模组下载、更好的内置联机可直接创建服务器、'
+              '更好的界面体验、动态交互更多!'),
+          StringStruct('FileVersion', '3.0.0.0'),
+          StringStruct('InternalName', 'Kmcl Minecraft!Launcher'),
+          StringStruct('LegalCopyright', 'Copyright © 吴宸工作室'),
+          StringStruct('OriginalFilename', 'Kmcl Minecraft！Launcher.exe'),
+          StringStruct('ProductName', 'Kmcl Minecraft!Launcher'),
+          StringStruct('Comments',
+              '谁开发的Kmcl Minecraft!Launcher? 关于这个问题,首次版本以及大多数版本'
+              '均为@吴宸说电脑(宋吴宸)开发,我仅仅只是一个平平无奇的普通学生(在此声明本人以学业为主,'
+              '如果有bug或者反馈请联系@罗玉翔 或者◎小吞)。在此特别感谢@吴宸工作室 提供的帮助!'
+              '©吴宸工作室 在我开发迷茫时提供绝对帮助! '
+              '我的官网及所有配套版权均为@吴宸工作室及@吴宸说电脑(宋吴宸)版权所有!'
+              '这个启动器会开源至GitHub和其他开源网站!(开源协议:二传请标注'
+              '(基于 Kmcl Minecraft! Launcher或 基于Kmcl启动器 开发的软件)) '
+              '软件简介到此结束!谢谢您使用本启动器'),
+        ])
+      ]
+    ),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)
